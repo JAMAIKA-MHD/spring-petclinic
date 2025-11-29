@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+    workflow_dispatch:
     runs-on: master-node-1
     strategy:
       matrix:
