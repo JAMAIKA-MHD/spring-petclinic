@@ -13,9 +13,6 @@ on:
 jobs:
   build:
     runs-on: master-node-1
-    strategy:
-      matrix:
-        java: [ '17' ]
 
     steps:
       - uses: actions/checkout@v4
